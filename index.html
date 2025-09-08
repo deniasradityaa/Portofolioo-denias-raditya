@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="breakpoint.css" />
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Denias<span> Raditya</span></a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#project">Project</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Denias Raditya</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <div class="social-media">
+          <a href=""><i class="bx bxl-whatsapp"></i></a>
+          <a href=""><i class="bx bxl-twitter"></i></a>
+          <a href=""><i class="bx bxl-instagram-alt"></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+
+        <a href="" class="btn">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="picture me.png" alt="Denias Raditya" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-inner">
+        <div class="about-left">
+          <div class="about-photo-card">
+            <img src="picture me.png" alt="Foto Denias Raditya" />
+          </div>
+        </div>
+
+        <div class="about-right">
+          <h2 class="heading about-title">About <span>Me</span></h2>
+          <p class="about-sub">Discover my journey, passions, and the story</p>
+
+          <div class="about-cards">
+            <div class="info-card">
+              <i class="bx bx-user info-icon"></i>
+              <div class="info-text">
+                <h4>Who Am I</h4>
+                <p>
+                  I am a student at SMKN 40 Jakarta majoring in Software
+                  Engineering. I am committed to continuously developing my
+                  skills in this field and striving to achieve the best results.
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <i class="bx bx-brightness info-icon"></i>
+              <div class="info-text">
+                <h4>My Approach</h4>
+                <p>
+                  As a Software Engineering student, I focus on continuously
+                  improving my coding skills, problem solving abilities, and
+                  creativity to build impactful digital solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="personal-info">
+            <h4 class="pi-title">Personal Info</h4>
+            <ul class="pi-list">
+              <li>
+                <span class="pi-icon"><i class="bx bx-id-card"></i></span
+                ><span class="pi-label"
+                  ><strong>Name:</strong> Denias Raditya</span
+                >
+              </li>
+              <li>
+                <span class="pi-icon"><i class="bx bx-map"></i></span
+                ><span class="pi-label"
+                  ><strong>Place:</strong> Jakarta, Indonesia</span
+                >
+              </li>
+              <li>
+                <span class="pi-icon"><i class="bx bx-phone"></i></span
+                ><span class="pi-label"
+                  ><strong>Phone:</strong> +62 858 1035 6474</span
+                >
+              </li>
+              <li>
+                <span class="pi-icon"><i class="bx bx-calendar"></i></span
+                ><span class="pi-label"
+                  ><strong>Date Of Birth:</strong> 23 May 2008</span
+                >
+              </li>
+              <li>
+                <span class="pi-icon"><i class="bx bx-envelope"></i></span
+                ><span class="pi-label"
+                  ><strong>Email:</strong> deniasradityaa@gmail.com</span
+                >
+              </li>
+              <li>
+                <span class="pi-icon"><i class="bx bx-book"></i></span
+                ><span class="pi-label"
+                  ><strong>Education:</strong> SMKN 40 Jakarta</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <section id="skills" class="skills-container">
+      <div class="skills-header">
+        <h1 class="heading"><br /><br /><span>My</span> Skills</h1>
+        <p>Tools and technologies I've mastered or currently exploring.</p>
+      </div>
+
+      <div class="filter-buttons" role="tablist" aria-label="Skill filters">
+        <button class="filter-btn active" data-filter="frontend">
+          ⭐ Code
+        </button>
+        <button class="filter-btn" data-filter="other">🎨 Other Tools</button>
+      </div>
+
+      <div class="skills-grid" aria-live="polite">
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-icon html-icon">
+            <i class="bx bxl-html5"></i>
+          </div>
+          <div class="skill-name">HTML</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-icon css-icon">
+            <i class="bx bxl-css3"></i>
+          </div>
+          <div class="skill-name">CSS</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-category="frontend">
+          <div class="skill-icon js-icon">
+            <i class="bx bxl-javascript"></i>
+          </div>
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-category="other">
+          <div class="skill-icon vsc-icon">
+            <i class="bx bxl-visual-studio"></i>
+          </div>
+          <div class="skill-name">Visual Studio Code</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-category="other">
+          <div class="skill-icon laragon-icon">
+            <i class="bx bx-server"></i>
+          </div>
+          <div class="skill-name">Laragon</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+
+        <div class="skill-card" data-category="other">
+          <div class="skill-icon figma-icon">
+            <i class="bx bxl-figma"></i>
+          </div>
+          <div class="skill-name">Figma</div>
+          <div class="skill-level">Intermediate</div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+
+    <section id="education" class="education-section">
+      <div class="education-inner">
+        <div class="edu-left">
+          <h2 class="heading small">Educations <span>&amp; Awards</span></h2>
+          <p>
+            There are some formal education & awards that I've reached below
+          </p>
+        </div>
+
+        <div class="edu-right">
+          <div class="edu-card">
+            <div class="edu-columns">
+              <div class="edu-column edu-column-left">
+                <div class="edu-badge-row">
+                  <div class="edu-badge">EDUCATIONS</div>
+                </div>
+
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4>SMK 40 Jakarta</h4>
+                      <p class="muted">Rekayasa Perangkat Lunak</p>
+                      <span class="date">2024 - Present</span>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4>SMPN 97 Jakarta</h4>
+                      <p class="muted">Sekolah Menengah Pertama</p>
+                      <span class="date">2021 - 2023</span>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4>SDN Kayumanis 03 PG</h4>
+                      <p class="muted">Sekolah Dasar</p>
+                      <span class="date">2015 - 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="edu-column edu-column-right">
+                <h3 class="col-title">Experience</h3>
+                <div class="timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4></h4>
+                      <p class="muted"></p>
+                      <span class="date"></span>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4></h4>
+                      <p class="muted"></p>
+                      <span class="date"></span>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                      <h4></h4>
+                      <p class="muted"></p>
+                      <span class="date"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project" id="project">
+      <h1 class="heading">Latest <span>Project</span></h1>
+
+      <div class="project-container">
+        <div class="project-box">
+          <img src="Portofolio Picture.png" alt="Portfolio" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="http://127.0.0.1:3000/denias.html#project"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="assets/image/img2.png" alt="" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="assets/image/img4.png" alt="project" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="assets/image/img4.png" alt="project" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="assets/image/img6.png" alt="project" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <img src="assets/image/img6.png" alt="project" />
+          <div class="project-layer">
+            <h4>Web Design</h4>
+            <p></p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <div class="contact-wrapper">
+          <div
+            class="contact-cards"
+            role="navigation"
+            aria-label="Social contact links"
+          >
+            <a class="contact-card" href="#" target="_blank" rel="noopener">
+              <div class="card-icon"><i class="bx bxl-github"></i></div>
+              <div class="card-body">
+                <h4>GitHub</h4>
+                <p>Explore my code & projects</p>
+              </div>
+              <i class="bx bx-chevron-right card-arrow"></i>
+            </a>
+
+            <a class="contact-card" href="#" target="_blank" rel="noopener">
+              <div class="card-icon"><i class="bx bxl-linkedin"></i></div>
+              <div class="card-body">
+                <h4>LinkedIn</h4>
+                <p>Let's connect professionally</p>
+              </div>
+              <i class="bx bx-chevron-right card-arrow"></i>
+            </a>
+
+            <a class="contact-card" href="#" target="_blank" rel="noopener">
+              <div class="card-icon"><i class="bx bxl-instagram"></i></div>
+              <div class="card-body">
+                <h4>Instagram</h4>
+                <p>My visual journal & life updates</p>
+              </div>
+              <i class="bx bx-chevron-right card-arrow"></i>
+            </a>
+
+            <a class="contact-card" href="#" target="_blank" rel="noopener">
+              <div class="card-icon"><i class="bx bxl-twitter"></i></div>
+              <div class="card-body">
+                <h4>Twitter</h4>
+                <p>Random thoughts & dev tweets</p>
+              </div>
+              <i class="bx bx-chevron-right card-arrow"></i>
+            </a>
+          </div>
+
+          <div class="contact-form-card" aria-labelledby="contact-form-title">
+            <h3 class="contact-form-title">Message Me</h3>
+            <form class="contact-form" action="#" method="post">
+              <div class="input-row">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+
+              <input type="text" name="subject" placeholder="Subject" />
+
+              <textarea
+                name="message"
+                rows="7"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <div class="form-footer">
+                <button type="submit" class="btn">Send</button>
+                <span class="hint">I'll reply as soon as I can.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Hak cipta (&copy; 2025 Denias Raditya)</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="main.js"></script>
+  </body>
+</html>
